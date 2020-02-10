@@ -10,15 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-     @IBOutlet weak var celsiusLabel: UILabel!
-        @IBOutlet weak var fahrenheitLabel: UILabel!
-        @IBOutlet weak var sliderLabel: UILabel!
+    @IBOutlet weak var celsiusLabel: UILabel!
+    @IBOutlet weak var fahrenheitLabel: UILabel!
+    @IBOutlet weak var slider: UISlider!
         
-        @IBAction func sliderValueChanged(_ sender: UISlider){
+    @IBAction func sliderValueChanged(_ sender: UISlider){
+        print("slider value changed")
         
-        
-        }
-
-
     }
+
+
+}
 
